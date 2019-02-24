@@ -59,7 +59,8 @@ public class CustomerApiController {
 		 * user.setPassword(password);
 		 */
 	   
-	  String status = shoppursDao.loginCustomer(user); 
+	  String status1 = shoppursDao.loginCustomer(user); 
+	  
 	  return generateResponse(true,"Cities fetched successfuly",user);
 	  }
     
