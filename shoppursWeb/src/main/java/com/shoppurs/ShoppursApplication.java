@@ -13,9 +13,7 @@ public class ShoppursApplication extends SpringBootServletInitializer{
 		return application.sources(ShoppursApplication.class);
 	}
 
-	public static void main(String[] args) {
-		SpringApplication.run(ShoppursApplication.class, args);
-	}
+	public static void main(String[] args) {}
 
 }
 
